@@ -7,7 +7,7 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 
 @AllArgsConstructor
-@NoArgsConstructor //기본 생성자 추가 어노테이션
+@NoArgsConstructor
 @ToString
 @Entity
 @Getter
