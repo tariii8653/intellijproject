@@ -21,6 +21,7 @@ public class ArticleController {
     private ArticleRepository articleRepository;
     @GetMapping("/articles/new")
     public String newArticleFrom(){
+
         return "articles/new";
     }
     @PostMapping("/articles/create")
